@@ -13,8 +13,16 @@ package com.redoutevant.gitproject;
  */
 public class ValidateLogin {
     
+    private String password;
     private String username;
+        
+    public String getPassword() {
+        return password;
+    }
     
+    public void setPassword(String password) {
+        this.password = password;
+    }
     public String getUsername() {
         return username;
     }
@@ -22,5 +30,8 @@ public class ValidateLogin {
     public void setUsername(String username) {
         this.username = username;
     }
-        
+    
+    public static void main(String[] args) {
+            
+    }    
 }
