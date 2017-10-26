@@ -7,7 +7,9 @@ package com.redoutevant.gitproject;
 
 /**
  *
+ * 
  * @author dev
+ * @serial 20171026
  */
 public class ValidateLogin {
     
